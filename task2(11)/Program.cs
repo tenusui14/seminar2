@@ -13,3 +13,5 @@ Console.WriteLine(firstDigit);
 Console.WriteLine(lastDigit);
 int withoutMid = firstDigit * 10 + lastDigit;
 Console.WriteLine(withoutMid);
+// Интерполяция:
+Console.WriteLine($"Исходное число {number}, первая цифра = {firstDigit}, вторая цифра = {lastDigit}");
