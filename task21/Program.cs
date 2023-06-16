@@ -13,8 +13,8 @@ int by = Convert.ToInt32(Console.ReadLine());
 double powX = Math.Pow(ax - ay, 2);
 double powY = Math.Pow(bx - by, 2);
 double result = Math.Sqrt(powX + powY);
-Console.WriteLine("Расстояние равно: " + result);
+//Console.WriteLine("Расстояние равно: " + result);
 
-
+Console.WriteLine($"Расстояние равно: {result:f2}");
 
 
